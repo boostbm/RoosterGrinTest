@@ -29,7 +29,7 @@ const HeroBg = styled.div`
   }
 
   .hero-title {
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.5px white;
     color: transparent;
   }
   .hero-text {
