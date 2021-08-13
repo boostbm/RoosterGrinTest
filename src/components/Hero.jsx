@@ -28,6 +28,10 @@ const HeroBg = styled.div`
     color: #fff;
   }
 
+  .hero-title {
+    -webkit-text-stroke: 0.1px white;
+    color: transparent;
+  }
   .hero-text {
     letter-spacing: 7px;
   }
@@ -45,7 +49,7 @@ export function Hero() {
       <Wrapper>
         <FadeInUpDiv>
           <h1>
-            <span>WELCOME TO </span> <br />
+            <span className="hero-title">WELCOME TO </span> <br />
             <span className="hero-text">Rooster Grin</span>
           </h1>
           <Link to="HalfImgSection" smooth duration={1000}>
