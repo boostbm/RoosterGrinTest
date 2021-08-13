@@ -32,10 +32,10 @@ export function Footer() {
     <FooterWrapper>
       <FooterText> Follow Us: </FooterText>
       <LinkWrapper>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
           <LinkImg src={instagramImg} />
         </a>
-        <a href="https://facebook.com" target="_blank">
+        <a href="https://facebook.com" target="_blank" rel="noreferrer">
           <LinkImg src={facebookImg} />
         </a>
       </LinkWrapper>

@@ -24,7 +24,11 @@ function App() {
             <h3>
               <span>LOREM IPSUM </span> <br />
             </h3>
-            <a href="https://www.roostergrin.com/" target="_blank">
+            <a
+              href="https://www.roostergrin.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button color="orange">CHECK OUR WEBSITE!</Button>
             </a>
           </div>
@@ -37,7 +41,11 @@ function App() {
             <h3>
               <span>LOREM UPSUM </span> <br />
             </h3>
-            <a href="https://www.roostergrin.com/our-work/" target="_blank">
+            <a
+              href="https://www.roostergrin.com/our-work/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button color="orange">CHECK OUR WORK!</Button>
             </a>
           </div>
