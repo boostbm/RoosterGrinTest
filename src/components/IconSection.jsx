@@ -7,10 +7,12 @@ import maskImg from "../images/home-hygiene.svg"
 import labImg from "../images/home-lab.svg"
 import retentionImg from "../images/home-retention.svg"
 
+// ICON IMAGE STYLE
 const IconImg = styled.img`
   max-width: 75px;
   width: 100%;
 `
+// ICON WRAPPER STYLE
 const IconWrapper = styled.div`
   width: 75px;
   height: 75px;
@@ -25,6 +27,8 @@ const IconWrapper = styled.div`
     border: 1px solid var(--white);
   }
 `
+
+// GRID FOR ICON SECTION
 const IconGrid = styled(Grid)`
   text-align: center;
 

@@ -1,13 +1,16 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "react-scroll"
 import { Grid } from "./Layout"
 import gridBgImg from "../images/img-1.jpg"
-import { Link } from "react-scroll"
 
+// HALF IMAGE FOR GRID
 const GridBgImg = styled.div`
   background: url(${gridBgImg}) center no-repeat;
   background-size: cover;
 `
+
+// HALF IMAGE WRAPPER STYLE
 const HalfImgWrapper = styled.section`
   .left,
   .right {
@@ -28,7 +31,7 @@ const HalfImgWrapper = styled.section`
 
 export function HalfImgSection() {
   return (
-    <HalfImgWrapper id="HalfImgSection"  >
+    <HalfImgWrapper id="HalfImgSection">
       <Grid>
         <div className="left">
           <h3 className="title-color">LOREM IPSUM </h3>

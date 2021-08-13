@@ -1,17 +1,18 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
-import heroImg from "../images/hero.jpg"
 import { Button } from "./Button"
 import { Wrapper } from "./Layout"
 import { fadeInUp } from "react-animations"
 import { Link } from "react-scroll"
+import heroImg from "../images/hero.jpg"
 
+// FADE IN ANIMATION
 const fadeInUpAnimation = keyframes`${fadeInUp}`
 
 const FadeInUpDiv = styled.div`
   animation: 1s ${fadeInUpAnimation};
 `
-
+// Hero Style
 const HeroBg = styled.div`
   background: url(${heroImg}) center no-repeat;
   background-size: cover;

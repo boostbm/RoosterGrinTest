@@ -1,8 +1,13 @@
 import React from "react"
 import styled from "styled-components"
 import { Grid, Wrapper } from "./Layout"
-import StarRating from "react-svg-star-rating"
 import Carousel from "./Carousel"
+import star from "../images/star-image.png"
+
+// Stars Style
+const Stars = styled.div`
+  display: flex;
+`
 
 export function CarouselSection() {
   return (
@@ -19,6 +24,14 @@ export function CarouselSection() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <br />
+          <Stars>
+            <img src={star} alt="Star" />
+            <img src={star} alt="Star" />
+            <img src={star} alt="Star" />
+            <img src={star} alt="Star" />
+            <img src={star} alt="Star" />
+          </Stars>
         </div>
         <Carousel />
       </Grid>

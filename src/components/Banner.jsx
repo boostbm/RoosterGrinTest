@@ -1,6 +1,5 @@
 import React from "react"
-import styled, { keyframes } from "styled-components"
-import { fadeInLeft } from "react-animations"
+import styled from "styled-components"
 import { Wrapper } from "./Layout"
 
 const BannerBg = styled.div`
@@ -14,12 +13,6 @@ const BannerBg = styled.div`
     align-items: center;
     color: white;
   }
-`
-
-const fadeInLeftAnimation = keyframes`${fadeInLeft}`
-
-export const FadeInLeftDiv = styled.div`
-  animation: 1s ${fadeInLeftAnimation};
 `
 
 export function Banner({ bgImg, position, children }) {

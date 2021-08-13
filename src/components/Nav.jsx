@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import logo from "../images/logo-white.svg"
 import { Wrapper } from "./Layout"
+import logo from "../images/logo-white.svg"
 
 const Header = styled.header`
   position: absolute;

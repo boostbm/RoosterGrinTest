@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 
+// CAROUSEL COMPONENT
 function Carousel() {
   const quotes = {
     0: {
