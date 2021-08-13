@@ -85,6 +85,7 @@ function Carousel() {
       background-color: var(--orange);
     }
   `
+
   return (
     <CarouselContainer>
       <h6 className="quote-title">{current.client}</h6>
